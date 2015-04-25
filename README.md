@@ -1,2 +1,3 @@
-# derp_bear_api_go
+# DerpBearAPIGo
+
 playing with golang and making a service to add some functionality to derp-bear
