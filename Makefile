@@ -17,6 +17,7 @@ default:
 	@echo "make install      Compile sources and build binaries"
 	@echo "make test         Run all tests of your application"
 	@echo "make run          Build application and run it !"
+	@echo "make ginkgo       Run all specs of your application"
 
 # Clean .o files and binary
 clean:
@@ -40,3 +41,8 @@ run: clean install
 test:
 	@echo "--> testing..."
 	@go test -v $(PACKAGE)/...
+
+# Run specs for application
+ginkgo:
+	@echo "--> running specs..."
+	ginkgo src/github.com/orieken/derp_bear_api_go/derpBearAPIGo
