@@ -11,3 +11,9 @@ playing with golang and making a service to add some functionality to derp-bear
 
 A Yeoman generator for Go: [Generator-go](https://www.npmjs.com/package/generator-go)
 BDD-style Golang testing framework: [Ginkgo](http://onsi.github.io/ginkgo/)
+
+## useful posts
+
+[Deploying a Go app to Heroku](https://mmcgrana.github.io/2012/09/getting-started-with-go-on-heroku.html)
+[Go by Example](https://gobyexample.com/)
+[Go Koans](https://github.com/cdarwin/go-koans)
