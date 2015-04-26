@@ -45,4 +45,4 @@ test:
 # Run specs for application
 ginkgo:
 	@echo "--> running specs..."
-	ginkgo src/github.com/orieken/derp_bear_api_go/derpBearAPIGo
+	ginkgo src/$(PACKAGE)
